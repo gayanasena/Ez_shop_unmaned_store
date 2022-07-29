@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/button_background_blue.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/cart_button_bg.xml" value="0.2115" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_add_img.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_back_Black.xml" value="0.3535" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_back_img.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.2705" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_cart.xml" value="0.2115" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_cat_bg.xml" value="0.1435" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_facebook.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_filter.xml" value="0.2115" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_google_plus.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_heart.xml" value="0.1435" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_login_hero.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_logout.xml" value="0.3535" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_rectangle_3.xml" value="0.1435" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_register_hero.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_search.xml" value="0.2115" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/ic_side_bg.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/shape_circle01.xml" value="0.292" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/shape_rect01.xml" value="0.22" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/drawable/shape_rect02.xml" value="0.3445" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/font/font.xml" value="0.16354166666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/font/rubik.xml" value="0.16354166666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/font/rubik_bold.xml" value="0.16354166666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/font/rubik_bold_italic.xml" value="0.16354166666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/font/rubik_medium.xml" value="0.16354166666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_access.xml" value="0.24791666666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_add_item_from_qr.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_checkout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_forget_password.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_locate.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_productdetails.xml" value="0.25" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_register.xml" value="0.265625" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_scan_qractivity.xml" value="0.22" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_view_all_products.xml" value="0.25" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/activity_view_cart.xml" value="0.33" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/cart_item_card.xml" value="0.365625" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/category_row_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/fragment_second.xml" value="0.18802083333333333" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/ic_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/products_row_item.xml" value="0.33" />
+        <entry key="..\:/Android Apps/EzStore/app/src/main/res/layout/products_row_view_all_item.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

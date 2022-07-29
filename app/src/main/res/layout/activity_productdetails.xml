@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Productdetails">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:onClick="imgBackClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:background="@drawable/detail_page_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/ic_cat_bg"
+            android:fontFamily="@font/rubik_medium"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Category"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Japanese Cherry Blossom"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtPrice"
+            app:layout_constraintStart_toStartOf="@+id/txtCategory"
+            app:layout_constraintTop_toBottomOf="@+id/txtCategory" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="$ 15.00"
+            android:textColor="#42995C"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtTitle" />
+
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik"
+            android:lineSpacingExtra="2dp"
+            android:text="A moisturizing body with a sweet and refreshing aroma of Japanese cherry blossom, peony, musk, and strawberry. Will make the skin feel moist and smooth. The combination also makes long-lasting fragrance."
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintEnd_toEndOf="@+id/txtPrice"
+            app:layout_constraintStart_toStartOf="@+id/txtTitle"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+        <ImageView
+            android:id="@+id/imgQtyMinus"
+            android:onClick="onQtyMinusClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtDesc"
+            app:layout_constraintTop_toTopOf="@+id/btnAddCart"
+            app:srcCompat="@drawable/ic_minus" />
+
+        <TextView
+            android:id="@+id/txtQtyDisplay"
+            android:layout_width="50dp"
+            android:layout_height="53dp"
+            android:fontFamily="@font/rubik_medium"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgQtyMinus"
+            app:layout_constraintStart_toEndOf="@+id/imgQtyMinus"
+            app:layout_constraintTop_toTopOf="@+id/imgQtyMinus"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imgQtyPlus"
+            android:onClick="onQtyPlusClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/txtQtyDisplay"
+            app:layout_constraintStart_toEndOf="@+id/txtQtyDisplay"
+            app:layout_constraintTop_toTopOf="@+id/txtQtyDisplay"
+            app:srcCompat="@drawable/ic_plus" />
+
+        <Button
+            android:id="@+id/btnAddCart"
+            android:onClick="onBtnAddCartPD"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:background="@drawable/detail_page_cart_button_bg"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:fontFamily="@font/rubik_medium"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:text="Add to Cart"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imgMainImg"
+        android:layout_width="259dp"
+        android:layout_height="405dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:transitionName="image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prod" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "885424720290",
+    "project_id": "ez-store-b2cdd",
+    "storage_bucket": "ez-store-b2cdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885424720290:android:6fec7fa859f2158ea40afb",
+        "android_client_info": {
+          "package_name": "com.example.ezstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885424720290-djoc58831l2o5ajd3hjb0sis2j4mihjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDngXYMSMlPi4BuL8KMrwuZM1muNGNJMHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885424720290-djoc58831l2o5ajd3hjb0sis2j4mihjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_600">#FB8C00</color>
+    <color name="amber_600">#FFB300</color>
+    <color name="blue_500">#021aee</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_600">#757575</color>
+    <color name="amber_800">#FF8F00</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#DC0606</color>
+
+    <!-- login page colors-->
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="themeColor">#FFFFFF</color>
+
+    <!--normal colors-->
+    <color name="darkTextColor">#020000</color>
+
+
+    <!--colors for light mode-->
+    <color name="contentTextColor">#FFCA28</color>
+    <color name="register_bk_color">#FFFFFFFF</color>
+    <color name="login_bk_color">#FFFFFFFF</color>
+    <color name="whiteTextColor">#FFB300</color>
+    <color name="primaryTextColor">#FFB300</color>
+</resources>
